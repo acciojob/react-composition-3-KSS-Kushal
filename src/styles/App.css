@@ -1,1 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    width: fit-content;
+}
 
+.container{
+    position: relative;
+    padding-top: 30px;
+}
+
+.tooltiptext{
+    display: flex;
+    width: fit-content;
+    padding: 25px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 5;
+    top: 0;
+}
+
+.tooltip{
+    margin-top: 40px;
+    width: fit-content;
+}
