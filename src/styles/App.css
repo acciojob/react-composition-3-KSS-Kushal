@@ -7,8 +7,6 @@
     display: flex;
     padding: 10px;
     border-bottom: 1px solid black;
-    font-size: 20px;
-    font-weight: 600;
     width: fit-content;
 }
 
@@ -32,7 +30,7 @@
     top: 0;
 }
 
-.tooltip{
+.tooltipContainer{
     margin-top: 40px;
     width: fit-content;
 }
